@@ -1,0 +1,51 @@
+vertical-menu {
+    width: 400px; /* Set a width if you like */
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: graytext; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.centrar{
+	position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+		/*determinamos una anchura*/
+	width:900px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-500px;
+		/*determinamos una altura*/
+	height:200px;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-200px;
+	border:10px solid #808080;
+	padding:50px;
+}
+body {
+background-size: cover;
+background-repeat: no-repeat;
+}
+a{
+  font-size: 30px;
+}
+h1{
+    font-size: 45px;
+}
+
+
